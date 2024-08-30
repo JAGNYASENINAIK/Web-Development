@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress baar</title>
+    <style>
+        .progress {
+            background-color: #ea0a0a;
+            height: 2px;
+            animation: load 1s ease-in  1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 100px;
+            background-color: #e3c0c0;
+            
+        }
+
+        main {
+            height: 899px;
+            background-color: #596986;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0px;
+                
+            }
+            30%{
+                width: 80vw;
+            }
+            70%{
+                width:90vw;  
+            }
+            100%{
+                width: 100nw;
+            }
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+                
+            }
+            
+            100%{
+                transform:rotate(360deg);
+            }
+                }        
+
+    /* img{
+        animation:rotate .7s ease-in infinite; */
+    
+    .slider{
+        background-color: #e76868;
+        height: 123px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <main>
+     <!-- <img src="dr.png" alt="" width="300px"> -->
+     <div class="slider">
+     <img src="https://unsplash.com/photos/text-klMii3cR9iI" alt="" srcset="">
+
+     <img src="https://unsplash.com/photos/a-black-and-white-photo-of-a-bee-on-a-flower-q704DerUv-o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+     <img src="Photo by Daka from Pexels: https://www.pexels.com/photo/woman-in-white-long-sleeves-and-skirt-between-buildings-13324382/" alt="" srcset="">
+
+     </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont {
+            background-color: #b5bfed;
+            width: 45px;
+            /* height: 100px; */
+            padding: 500px;
+
+        }
+
+        .box {
+            border: 4px solid rgb(93, 85, 80);
+
+            color: beige;
+            /* transform:translate(53px,68px) rotate(45deg); */
+            /* transform:rotate(0.5turn); */
+            transform-origin: 0;
+            /* transform: scale(-3 -5); */
+            /* transform: scaleX(3);
+            transform: scaleY(3);  */
+            /* transform: skew(3deg, 5deg); */
+            /* display: flex;
+            justify-content: center;
+        */
+        }
+
+        img {
+            width: 46px;
+            height: 86px;
+            /* transition-property: width;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s; */
+            transition: width 5s ease-in-out 2s, height 2s ease;
+
+        }
+
+        /* img:hover {
+            width: 508px;
+
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div class="cont">
+        <div class="box ">
+
+
+
+            <img id="myimg" src="v.jpg " alt="" srcset="">
+            <button id="btn">Toggle</button>
+
+
+        </div>
+
+    </div>
+</body>
+
+<script>
+    myimg.style.width="36px"
+    myimg.style.height="500px"
+
+    btn.addEventListener("click", () => {
+        myimg.style.height="500px";
+        if(myimg.style.width==="366px"){
+        myimg.style.width = "36px";
+
+        }
+        else if(myimg.style.width==="36px"){
+            myimg.style.width="366px";
+        }
+    })
+</script>
+
+</html>

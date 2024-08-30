@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+margin: 0;
+padding: 0;
+        }
+        .cont{
+            height: 100vh;
+            width: 100vw;
+            background-color: #6d6969;
+        }
+        .box{
+            width: 300px;
+            background-color: #ed9292;
+            color: beige;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* animation-name: widthanimation;
+            animation-timing-function: ease-in-out;
+            animation-delay: .1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse; */
+
+        }
+        img{
+            animation: widthanimation2 1s ease-in-out 1s infinite alternate-reverse
+        }
+        @keyframes widthanimation {
+            from{
+                width: 30px;
+                height: 30px;
+            }
+            to{
+                width:690px;
+                height: 690px;
+            }
+        }
+        @keyframes widthanimation2 {
+            0%{
+                width: 30px;
+                height: 30px;
+            }
+            20%{
+                width: 300px ;
+                height: 300px;
+            }
+            100%{
+                width:690px;
+                height: 690px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="cont">
+<!-- <div class="box">
+</div> -->
+<img src="dr.png" alt="" width="344px">
+    </div>
+</body>
+</html>

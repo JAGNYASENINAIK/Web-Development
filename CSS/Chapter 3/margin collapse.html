@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin collapse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: yellowgreen;
+            margin:3px;
+            height:200px;
+            width: 230px;
+            border: 2px solid rgb(183, 144, 15);
+        }
+
+        .box2 {
+            background-color: #e54b4b;
+            /* margin:10px; */
+            height: 60px;
+            width: 100%;
+            padding: 4px;
+            border: 6px solid rgb(42, 244, 19);
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">. Impedit, voluptate. elit.lorem50 Ipsam, maiores.</div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing sit amet conseu!</div>
+</body>
+
+</html>

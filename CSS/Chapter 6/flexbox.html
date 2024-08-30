@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #280767;
+            height: 100vh;
+            align-items:center;
+            /* align-content: center; */
+
+        }
+        .box1 {
+            /* width: 145px; */
+            height: 145px;
+            background-color: cadetblue;
+            float: left;
+            clear: right;
+            border: 3px solid wheat;
+            order:4;
+            /* align-self: flex-end; */
+            flex-grow: 4;
+        }
+
+        .box2 {
+            /* width: 145px; */
+            height: 145px;
+            background-color: rgb(101, 160, 95);
+            float: right;
+            border: 3px solid wheat;
+            flex-grow: 4;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box1">it non minus culpa.</div>
+        <div class="box2">Lorem ipsum dolor sit amet </div>
+        <div class="box2">dkje2fgr</div>
+        <div class="box2">jhytdsdfg</div>
+    </div>
+</body>
+
+</html>

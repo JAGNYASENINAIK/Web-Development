@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color:rgba(178, 243, 80, 0.739);
+    color:rgb(46, 92, 8);
+    height:60px;
+}
+.green{
+    background-color: #b98888;
+    height:55px;
+    
+} 
