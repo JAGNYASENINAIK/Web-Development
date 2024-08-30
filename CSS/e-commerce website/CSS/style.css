@@ -24,24 +24,42 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding: 23px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #d5d5b6;
+    padding: 30px;
 }
 .logo{
     display: flex;
     align-items: center;
 }
 .logo img{
-    width: 190px;
+    width: 170px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(237, 237, 95);
+}
+nav ul li a:hover {
+    font-weight: bold;
+    /* color: rgb(206, 250, 10); */
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 457px;
+    height: 26px;
+    border-radius: 3px;
+
+}
+
+.container{
+    min-height: calc(100vh - 88px - 12vh);
 }
 
 footer{
     height: 12vh;
     background-color: #1f1c1c;
-    color: rgb(233, 233, 178);
+    color: rgb(237, 237, 95);
     font-family: "Kalam", cursive;
 }
