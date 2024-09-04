@@ -5,19 +5,24 @@
     margin: 0;
     padding: 0;
 }
-
+.h1{
+    font-family:"Kalam", cursive; ;
+    }
+    
 header{
-    background-color: #1f1c1c;
+    background-color: #8d6d6d;
+    
     color: #abab3a;
     font-family: "Kalam", cursive;
 }
 nav{
     display: flex;
+    
 }
 nav ul{
     height: 88px;
     display: flex;
-    justify-content: centera;
+    justify-content: flex-start;
     align-items: center;
     
 
@@ -47,19 +52,82 @@ nav ul li a:hover {
     align-items: center;
 }
 .search input{
-    width: 457px;
+    width: 30vw;
     height: 26px;
-    border-radius: 3px;
+    border-radius:5px;
+    margin: 0px 23px 0px 45px;
+    padding: 0 13px;
 
 }
+.search button{
+    font-family:"Kalam", cursive ;
+    font-weight: 900;
+}
 
+
+.slider{
+    box-sizing: border-box;
+    margin: 4px 20vw;
+    width: 14vw;
+    overflow: hidden;
+}
+.slider h1{
+    text-align: center;
+    font-family: "Kalam", cursive;
+
+    }
+
+.tag{
+    font-family:"Kalam", cursive;
+    display: inline; 
+
+    
+    
+
+}
+.card{
+    background-color: #8d6d6d;
+    max-width: 99vw;
+    margin: 17px auto;
+    font-family: "Kalam", cursive;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    
+} 
+ .cards{
+    display: flex;
+    flex-direction: row;
+    margin: 37px;
+    overflow:scroll;
+    
+ }
+.card-items{
+    margin: 0px 2px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+ .card h2{
+    font-family: "Kalam", cursive;
+    text-align:center;
+    text-wrap: balance;
+
+ }
+ .lines{
+    font-family: "Kalam", cursive;
+
+ }
 .container{
     min-height: calc(100vh - 88px - 12vh);
 }
 
 footer{
     height: 12vh;
-    background-color: #1f1c1c;
+    background-color: #8d6d6d;;
     color: rgb(237, 237, 95);
     font-family: "Kalam", cursive;
+    /* margin: 2px; */
 }

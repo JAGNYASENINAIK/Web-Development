@@ -3,3 +3,24 @@
     justify-content: center;
     align-items: center;
 }
+.btn{
+    color: rgb(237, 237, 95);
+    background-color:#1f1c1c;
+    border-radius: 4px;
+    height: 22px;
+    width: 52px;
+    cursor: pointer;
+    font-family: "Kalam", cursive;
+}
+.btn:hover{
+    font-weight: bolder;
+}
+.my-1{
+    margin: 5px 0;
+}
+.my-2{
+    margin: 24px 0;
+}
+.text-center{
+    text-align: center;
+}
