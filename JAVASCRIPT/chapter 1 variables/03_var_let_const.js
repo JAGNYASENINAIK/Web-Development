@@ -15,3 +15,7 @@ console.log(b)
     console.log(g)
 } 
 console.log(g)
+
+const author =  "reenu"
+// let author="9" throws error
+console.log(author)
