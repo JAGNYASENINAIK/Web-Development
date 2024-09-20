@@ -5,3 +5,10 @@ let c =a+b
 console.log(a+b)
 //q-2
 console.log(typeof(c))
+// q-3
+const p ={
+ "house" : 45,
+ "street":"rkl" ,
+}
+//p =67
+//q-4
