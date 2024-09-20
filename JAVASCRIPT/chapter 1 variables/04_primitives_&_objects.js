@@ -18,3 +18,21 @@ let v
 console.log(a,b,c,d,e,f,g)
 console.log(typeof f)
 console.log(typeof v)
+
+//// Non primitives datatypes -objects in JS
+const item = 
+{
+   "reenu":"girl",
+   "naina":"actor",
+   "sunny":"actor",
+   "jd":true,
+   "minnie":25,
+   "ruhi":undefined
+}
+console.log(item["reenu"])
+console.log(item["naina"])
+console.log(item["sunny"])
+console.log(item["jd"])
+console.log(item["minnie"])
+console.log(item["ruhi"])
+console.log(item["huuugy"])

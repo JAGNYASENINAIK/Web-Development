@@ -18,6 +18,6 @@ console.log(b)
 console.log(g)
  //if once const is declared it can not be changed//
 const author =  "reenu"
-//const author="menu"
+// const author="menu"
 // let author="9" throws error
 console.log(author)
