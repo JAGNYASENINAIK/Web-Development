@@ -1,0 +1,7 @@
+//q-1
+let a="reenu"
+let b =9
+let c =a+b
+console.log(a+b)
+//q-2
+console.log(typeof(c))
