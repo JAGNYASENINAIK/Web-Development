@@ -12,3 +12,5 @@ const p ={
 }
 //p =67
 //q-4
+p["house"]=789
+console.log(p)
