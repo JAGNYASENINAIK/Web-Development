@@ -14,3 +14,12 @@ const p ={
 //q-4
 p["house"]=789
 console.log(p)
+///Q=5
+const dict={
+    "suri":"wresteler",
+    "puri":"food",
+    "kheeri":"dessert",
+    "panipuri":"street food"
+}
+console.log(dict.kheeri)
+console.log(dict["puri"])
