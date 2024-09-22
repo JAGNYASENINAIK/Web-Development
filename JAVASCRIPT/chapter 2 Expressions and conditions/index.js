@@ -2,6 +2,7 @@
 //"reenu"
 //true
 console.log("operators in js")
+//Arithmetic operators
 let a =10;
 let b =4;
 console.log("a+b=",(a+b));
@@ -18,3 +19,19 @@ console.log("a--",(a--)); //it will print then decrease
 console.log("a=",a)
 console.log("--a",(--a)); //decrease then print
 console.log("a=",a)
+
+
+//Assignment operators
+let s = 1;
+s += 5 //same as s = s+5;
+console.log("s is now =", s);
+s -= 5 //same as s = s-5;
+console.log("s is now =", s);
+s *= 5 //same as s = s*5;
+console.log("s is now =", s);
+s /= 5 //same as s = s/5;
+console.log("s is now =", s);
+s %= 5 //same as s = s%5;
+console.log("s is now =", s);
+s **= 5 //same as s = s**5;
+console.log("s is now =", s);
