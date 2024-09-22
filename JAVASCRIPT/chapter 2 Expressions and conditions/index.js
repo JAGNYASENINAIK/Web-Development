@@ -50,4 +50,12 @@ console.log("comp1 >= comp2 is" , comp1 >= comp2)
 console.log("comp1 < comp2 is" , comp1 < comp2)
 console.log("comp1 <= comp2 is" , comp1 <= comp2)
  
+//Logical operator
+let x =5;
+let y = 6;
+console.log(x>y && x==y)
+console.log(x<y && x!=y)
+console.log(x<y || x==y)
+console.log(!false)
+console.log(!true)
 
