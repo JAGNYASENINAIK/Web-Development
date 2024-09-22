@@ -35,3 +35,19 @@ s %= 5 //same as s = s%5;
 console.log("s is now =", s);
 s **= 5 //same as s = s**5;
 console.log("s is now =", s);
+
+//comp operators
+let comp1 = 6;
+let comp2 = 5;
+let comp3 = 7;
+let comp4 = "7";
+console.log("comp1 == comp2 is" , comp1 == comp2)
+console.log("comp1 != comp2 is" , comp1 != comp2)
+console.log("comp3 === comp4 is" , comp3 === comp4)
+console.log("comp3 !== comp4 is" , comp3 !== comp4)
+console.log("comp1 > comp2 is" , comp1 > comp2)
+console.log("comp1 >= comp2 is" , comp1 >= comp2)
+console.log("comp1 < comp2 is" , comp1 < comp2)
+console.log("comp1 <= comp2 is" , comp1 <= comp2)
+ 
+
