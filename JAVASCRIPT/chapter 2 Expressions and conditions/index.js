@@ -59,3 +59,10 @@ console.log(x<y || x==y)
 console.log(!false)
 console.log(!true)
 
+ /*ljhgcfdhjbhbkj
+lhfghlko;
+lokjhgxdyuijolijkhb
+kjlhghfuliojihukg
+;ljkhghjoljihkb
+khjgv */
+
