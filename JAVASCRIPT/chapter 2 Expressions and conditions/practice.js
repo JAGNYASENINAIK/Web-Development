@@ -2,6 +2,7 @@
 /*
 const prompt = require("prompt-sync")({ sigint: true });
 let age = prompt("what is your age")
+age = Number.parseInt(age)
 if(age>10 && age<20){
     console.log("your age lies between 10 & 20")
 }
@@ -23,4 +24,6 @@ switch(age){
         console.log("your age is 15")
     case 16:
         console.log("your age is 16")
+        default:
+            console.log("your age is not special")
 }
