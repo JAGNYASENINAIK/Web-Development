@@ -12,3 +12,7 @@ else{
 //q-2
 const prompt = require("prompt-sync")({ sigint: true });
 let age = prompt("what is your age")
+switch(age){
+    case 12:
+        console.log("your age is 12")
+}
