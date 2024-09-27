@@ -60,3 +60,4 @@ switch(age){
 let age =5
 let a = age>18? "you can drive " :" you can not drive"
 console.log(a)
+// ,lkjgdtyuiouyftdfyioiuygf
