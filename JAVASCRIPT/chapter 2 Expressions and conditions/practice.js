@@ -19,12 +19,16 @@ switch(age){
         break
     case '13':
         console.log("your age is 13")
+        break
     case '14':
         console.log("your age is 14")
+        break
     case '15':
         console.log("your age is 15")
+        break
     case '16':
         console.log("your age is 16")
+        break
         default:
             console.log("your age is not special")
 }
