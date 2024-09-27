@@ -14,15 +14,16 @@ else{
 const prompt = require("prompt-sync")({ sigint: true });
 let age = prompt("what is your age")
 switch(age){
-    case 12:
+    case '12':
         console.log("your age is 12")
-    case 13:
+        break
+    case '13':
         console.log("your age is 13")
-    case 14:
+    case '14':
         console.log("your age is 14")
-    case 15:
+    case '15':
         console.log("your age is 15")
-    case 16:
+    case '16':
         console.log("your age is 16")
         default:
             console.log("your age is not special")
