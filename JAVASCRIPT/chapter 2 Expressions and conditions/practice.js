@@ -36,12 +36,27 @@ switch(age){
             */
 
 // q-3
-const prompt = require("prompt-sync")({ sigint: true });
-let num =prompt("what is yout num ?")
-num=Number.parseInt(num)
-if(num % 2==0 && num%3==0){
-    console.log("your number is divisible by 2 & 3")
-}
-else{
-    console.log("your number is not divisible by 2 & 3")
-}
+// const prompt = require("prompt-sync")({ sigint: true });
+// let num =prompt("what is yout num ?")
+// num=Number.parseInt(num)
+// if(num % 2==0 && num%3==0){
+//     console.log("your number is divisible by 2 & 3")
+// }
+// else{
+//     console.log("your number is not divisible by 2 & 3")
+// }
+//q-4
+// const prompt = require("prompt-sync")({ sigint: true });
+// let num =prompt("what is yout num ?")
+// num=Number.parseInt(num)
+// if(num % 2==0 ){
+//     console.log("your number is divisible by 2")
+// }
+// else if(num%3==0) {
+//     console.log("your number is not divisible by 3")
+// }
+
+//q-5
+let age =5
+let a = age>18? "you can drive " :" you can not drive"
+console.log(a)
