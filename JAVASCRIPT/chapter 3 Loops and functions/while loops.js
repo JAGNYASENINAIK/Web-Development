@@ -8,13 +8,21 @@
 //     i++;
 // }
 
-//do while loop
-const prompt=require("prompt-sync")({sigint:true}); 
-let  n = prompt("Enter the value of n :")
-n=Number.parseInt(n)
+// sample
+let count = 1;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}
 
-let i =10;
-do{
-    console.log(i)
-    i++;
-}while(i<n)
+
+//do while loop
+// const prompt=require("prompt-sync")({sigint:true}); 
+// let  n = prompt("Enter the value of n :")
+// n=Number.parseInt(n)
+
+// let i =10;
+// do{
+//     console.log(i)
+//     i++;
+// }while(i<n)
