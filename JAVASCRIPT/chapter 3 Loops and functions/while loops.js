@@ -9,11 +9,11 @@
 // }
 
 // sample
-let count = 1;
-while (count <= 5) {
-  console.log(count);
-  count++;
-}
+// let count = 1;
+// while (count <= 5) {
+//   console.log(count);
+//   count++;
+// }
 
 
 //do while loop
@@ -26,3 +26,10 @@ while (count <= 5) {
 //     console.log(i)
 //     i++;
 // }while(i<n)
+
+//sample
+let count = 1;
+do {
+  console.log(count);
+  count++;
+} while (count <= 5);
