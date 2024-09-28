@@ -9,14 +9,25 @@
 // }
 // console.log("sum of first "   +n   + "-natural number is "  +    sum) 
 
-//factorial
+// //factorial
 
-let fact=1
-const prompt=require("prompt-sync")({sigint:true}); 
-let n = prompt("enter the value of n :")
-n=Number.parseInt(n)
-for(let i =1 ;i<n;i++){
-    fact*=(i+1) 
-    //console.log(i*1) ,"+";
+// let fact=1
+// const prompt=require("prompt-sync")({sigint:true}); 
+// let n = prompt("enter the value of n :")
+// n=Number.parseInt(n)
+// for(let i =1 ;i<n;i++){
+//     fact*=(i+1) 
+//     //console.log(i*1) ,"+";
+// }
+// console.log("factorial of first "   +n   + "-natural number is "  +    fact) 
+
+let obj ={
+    reenu:90,
+    sinu:89,
+    rahul:78,
+    jakul:60,
+    pritul:20,
 }
-console.log("factorial of first "   +n   + "-natural number is "  +    fact) 
+for ( let a in obj){
+    console.log("Marks of  " +a+ " are" + - obj[a])
+}
