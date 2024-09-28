@@ -17,7 +17,7 @@ for(var i =0 ;i<n;i++){
     sum+=(i+1) // sum=sum+(i+1)
     console.log(i+1) ,"+";
 }
-console.log("sum of first "   +n   + "-natural number is "  +    sum) 
+console.log("sum of first "   +n   + "- natural number is "  +    sum) 
 
 console.log(i)
 
