@@ -6,6 +6,14 @@ const sum = (p,q)=>{
     return p+q
 }
 
+const hello =()=>{
+    console.log("hey hello")
+    return "hiii"
+}
+
+ let v = hello ();
+ console.log(v)
+
 let a = 3
 let b = 7
 let c = 5
