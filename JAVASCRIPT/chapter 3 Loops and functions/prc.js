@@ -1,18 +1,18 @@
 
-pro-1
-let marks={
-    harry:98 ,
-    rohan:70,
-    akash:7
-}   
-for ( i=0;i<Object.keys(marks).length;i++){
-    console.log("marks of " +Object.keys(marks)[i]+  "are  :"  + ( marks[Object.keys(marks)[i]]))
-    }
+// pro-1
+// let marks={
+//     harry:98 ,
+//     rohan:70,
+//     akash:7
+// }   
+// for ( i=0;i<Object.keys(marks).length;i++){
+//     console.log("marks of " +Object.keys(marks)[i]+  "are  :"  + ( marks[Object.keys(marks)[i]]))
+//     }
 
-//pro-2
-// for(let i in marks){
-//     console.log("marks of " +i+ " are :"  + marks[i])
-// }
+// pro-2
+for(let i in marks){
+    console.log("marks of " +i+ " are :"  + marks[i])
+}
 
 //pro-3
 // let cn = 498;
