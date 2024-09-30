@@ -16,7 +16,16 @@ let sentence = `${girl2} is a friend of ${girl1}`
 console.log(sentence)
 
 //escape sequence
-let fruit = "jagnyaseni\'naik"
+let fruit = 'jagnyaseni\'naik'
 let fruits = "jagnyaseni\nnaik"
+let cartoon ="shinchan\"nohara"
+let student = "nobita \t nobi"
+let smart ="Shizuka Mina\rmoto "
+let fruitse = "jagnyaseni\rnaik"
+
 console.log(fruit)
 console.log(fruits)
+console.log(fruitse)
+console.log(cartoon)
+console.log(student)
+console.log(smart)
