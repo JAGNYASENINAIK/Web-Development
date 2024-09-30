@@ -14,3 +14,9 @@ let girl1 = "priti";
 let girl2 = "swini";
 let sentence = `${girl2} is a friend of ${girl1}`
 console.log(sentence)
+
+//escape sequence
+let fruit = "jagnyaseni\'naik"
+let fruits = "jagnyaseni\nnaik"
+console.log(fruit)
+console.log(fruits)
