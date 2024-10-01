@@ -1,4 +1,5 @@
-let name ="reenu"
-console.log(name.length)
-let hame ="reeenu \""
-console.log(hame.length)
+le.log(fr[0])
+// console.log(fr[1])
+// console.log(fr[2])
+// console.log(fr[3])
+// console.log(fr[4])
