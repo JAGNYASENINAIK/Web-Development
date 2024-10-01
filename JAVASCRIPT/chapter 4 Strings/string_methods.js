@@ -8,4 +8,4 @@ let name ="ReeNu"
 // console.log(hame.slice(3))
 // console.log(name.replace("ii","jj"))
 let frnd ="naman"
-console.log(name.concat ( "  is a frnd of "),frnd)
+console.log(name.concat ( "  is a frnd of "),frnd ," okay")
