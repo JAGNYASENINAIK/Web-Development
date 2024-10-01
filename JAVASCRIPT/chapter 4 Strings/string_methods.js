@@ -7,5 +7,8 @@ let name ="ReeNu"
 // console.log(name.slice(3,6))
 // console.log(hame.slice(3))
 // console.log(name.replace("ii","jj"))
-let frnd ="naman"
+let frnd ="kiran"
 console.log(name.concat ( "  is a frnd of "),frnd ," okay")
+let frnd2 ="        varun             "
+console.log(frnd2)
+console.log(frnd2.trim())
