@@ -137,13 +137,20 @@ console.log("say thanks to god")
 */
 
 var arr=[0,1,2,3,4,5,6,7,8,9]
-console.log(arr);
-for(var i=0;i<arr.length;i++){
-    console.log(arr[i])
-}
-arr.forEach(function(element){
-console.log(element)
-})
+// console.log(arr);
+// for(var i=0;i<arr.length;i++){
+//     console.log(arr[i])
+// }
+// arr.forEach(function(element){
+// console.log(element);
+// })
+
+
+
+
+
+
+
 
 
 
