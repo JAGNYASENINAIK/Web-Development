@@ -136,6 +136,7 @@ else{
 console.log("say thanks to god")
 */
 
+//LOOPS IN JS
 var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 // console.log(arr);
 // for(var i=0;i<arr.length;i++){
@@ -145,9 +146,21 @@ var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 // console.log(element);
 // })
 
-// let w=4;
+let j=0;
 // const as=0;
 // as = as + 1;  //throws error
+
+// while(j<arr.length){
+//     console.log(arr[j]);
+//     j++
+// }
+
+do{
+    console.log(arr[j]);
+    j++
+}while(j<arr.length)
+
+
 
 
 
