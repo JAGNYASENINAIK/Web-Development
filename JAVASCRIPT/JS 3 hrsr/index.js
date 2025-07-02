@@ -8,24 +8,24 @@
 // console.error("this is an error");
 
 //  3.variables - container to store data values
-var num =45;
-var number=45;
+var num = 45;
+var number = 45;
 // console.log(num + number);
 
 // 4. datatypes in js
 //numbers
-var num1=788;
-var num2=456787;
+var num1 = 788;
+var num2 = 456787;
 
 //strings
-var str1="this is a string";
-var str2='this is also a string';
+var str1 = "this is a string";
+var str2 = 'this is also a string';
 
 // objects
-var marks={
-    ravi:67,
-    reenu:99,
-    subham:55
+var marks = {
+    ravi: 67,
+    reenu: 99,
+    subham: 55
 }
 // console.log(num1)
 // console.log(str2)
@@ -33,15 +33,15 @@ var marks={
 // console.log(num2)
 
 // boolean
-var a =true
-var h=false
+var a = true
+var h = false
 // console.log(a,h)
 
 // var und =undefined;
 var und;
 // console.log(und)
 
-var n=null;
+var n = null;
 // console.log(n)
 
 /*
@@ -50,26 +50,26 @@ at very high level there are two types of data types
 2.reference-arraya and objects
 */
 
-var arr=[1,2,3,"reenu",4,5,"hello","suuu"]
+var arr = [1, 2, 3, "reenu", 4, 5, "hello", "suuu"]
 // console.log(arr)
 // console.log(arr[6])
 // console.log(arr[2])
 
 // operators in java
 // arithmatic operators
-var x=100;
-var y=10;
+var x = 100;
+var y = 10;
 // console.log("the valuse of x + y is",x+y);
 // console.log("the valuse of x - y is",x-y);
 // console.log("the valuse of x * y is",x*y);
 // console.log("the valuse of x / y is",x/y);
 
 //assignment operators
-var c=5;
+var c = 5;
 // c += x
 // c =+ 2 ,c = c -2
 // c *= 2
-c /= 2 ; //c =c/2
+c /= 2; //c =c/2
 // console.log(c)
 
 // comparison operators
@@ -136,7 +136,7 @@ else{
 console.log("say thanks to god")
 */
 
-var arr=[0,1,2,3,4,5,6,7,8,9]
+var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 // console.log(arr);
 // for(var i=0;i<arr.length;i++){
 //     console.log(arr[i])
@@ -145,9 +145,9 @@ var arr=[0,1,2,3,4,5,6,7,8,9]
 // console.log(element);
 // })
 
-let w=4;
-const as=0;
-as = as + 1;
+// let w=4;
+// const as=0;
+// as = as + 1;  //throws error
 
 
 
