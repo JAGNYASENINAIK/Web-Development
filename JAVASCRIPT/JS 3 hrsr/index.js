@@ -137,7 +137,7 @@ console.log("say thanks to god")
 */
 
 //LOOPS IN JS
-var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // console.log(arr);
 // for(var i=0;i<arr.length;i++){
 //     console.log(arr[i])
@@ -155,14 +155,26 @@ let j=0;
 //     j++
 // }
 
-do{
-    console.log(arr[j]);
-    j++
-}while(j<arr.length)
+// do{
+//     console.log(arr[j]);
+//     j++
+// }while(j<arr.length)
 
 
+//continue - is itteration ko chod do
+//break - looping chod do
 
+// for(var i=0;i<arr.length;i++){
+//     if(i==2){
+//         // break;
+//         continue;
+//     }
+//         console.log(arr[i])
+//     }
 
+//array methods
+ 
+let myARR=["fan","cooler","ac",90,65,null,true,false]
 
 
 
