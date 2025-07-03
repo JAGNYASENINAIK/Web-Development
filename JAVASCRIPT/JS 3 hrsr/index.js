@@ -213,7 +213,32 @@ let mydate=new Date();
 // console.log(mydate.getHours())
 
 //DOM =DOCUMENT OBJECT MODEL 
+let elem =document.getElementById('click');
+// console.log(elem)
 
+let elemc =document.getElementsByClassName("container")
+// console.log(elemc)
+elemc[0].style.background="yellow"
+// elem[1].style.background=" lightgreen"
+elemc[1].classList.add("bg-primary")
+elemc[0].classList.add("text-success")
+// elem[0].classList.remove("text-success")
+// console.log(elem.innerHTML);
+// console.log(elem.innerText);
+// console.log(elemc[0].innerHTML);
+// console.log(elemc[1].innerText);
+
+tn=document.getElementsByTagName('div')
+console.log(tn)
+// tnn=document.getElementsByTagName('button')
+// console.log(tnn)
+createdElement=document.createElement('p')
+createdElement.innerText="this is a paragraph"
+tn[0].appendChild(createdElement)
+
+createdElement2=document.createElement('b')
+createdElement2.innerText="this is a bold"
+tn[0].replaceChild(createdElement2, createdElement)
 
 
 
