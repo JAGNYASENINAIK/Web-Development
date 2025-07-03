@@ -174,7 +174,17 @@ let j=0;
 
 //array methods
  
-let myARR=["fan","cooler","ac",90,65,null,true,false]
+let myarr=["fan","cooler","ac",90,65,null,true,false]
+// myarr.pop();  // this will remove from last
+// myarr.push("reenu"); //this will add in the last
+// // myarr.shift()
+// myarr.unshift("sameer") //this will add in the first
+myarr.toString()
+console.log(myarr)
+// console.log(myarr.length)
+
+const newlen = myarr.unshift("naina");   // this gives length
+console.log(newlen)
 
 
 
