@@ -188,6 +188,14 @@ let myarr=["fan","cooler","ac",90,65,null,true,false]
 //sort coverts all elements into string then see who will come first ac to dictionary
 
 
+let str="hello good morning i am reenu , i am very very sweet you know sweet is my personality"; //spaces are also considered 
+// console.log(str.length)
+// console.log(str.indexOf("reenu"))
+// console.log(str.indexOf("reenu")) // it will return first index if there is two reenu
+// console.log(str.indexOf("sweet")) // it will return first index if there is two reenu
+// console.log(str.lastIndexOf("sweet"))
+
+
 
 
 
