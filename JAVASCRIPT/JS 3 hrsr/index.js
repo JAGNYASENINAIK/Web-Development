@@ -195,6 +195,24 @@ let str="hello good morning i am reenu , i am very very sweet you know sweet is 
 // console.log(str.indexOf("sweet")) // it will return first index if there is two reenu
 // console.log(str.lastIndexOf("sweet"))
 
+// console.log(str.slice(0,67)) //it will start from to and print till 67
+// console.log(str.slice(0,3)) //excludes 3
+
+//  m=str.replace("reenu","suraj")
+//  m=m.replace("sweet","bitter")
+// console.log(m,str)
+
+
+let mydate=new Date();
+// console.log(mydate)
+// console.log(mydate.getDay())
+// console.log(mydate.getMonth())
+// console.log(mydate.getMilliseconds())
+// console.log(mydate.getTime())
+// console.log(mydate.getFullYear())
+// console.log(mydate.getHours())
+
+//DOM =DOCUMENT OBJECT MODEL 
 
 
 
