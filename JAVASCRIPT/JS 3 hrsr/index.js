@@ -179,12 +179,13 @@ let myarr=["fan","cooler","ac",90,65,null,true,false]
 // myarr.push("reenu"); //this will add in the last
 // // myarr.shift()
 // myarr.unshift("sameer") //this will add in the first
-myarr.toString()
-console.log(myarr)
-// console.log(myarr.length)
+// myarr.toString()
+// console.log(myarr)
+// // console.log(myarr.length)
 
-const newlen = myarr.unshift("naina");   // this gives length
-console.log(newlen)
+// const newlen = myarr.unshift("naina");   // this gives length
+// console.log(newlen)
+//sort coverts all elements into string then see who will come first ac to dictionary
 
 
 
