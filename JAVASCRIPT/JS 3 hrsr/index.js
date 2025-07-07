@@ -228,27 +228,30 @@ elemc[0].classList.add("text-success")
 // console.log(elemc[0].innerHTML);
 // console.log(elemc[1].innerText);
 
-tn=document.getElementsByTagName('div')
-console.log(tn)
-// tnn=document.getElementsByTagName('button')
+// tn=document.getElementsByTagName('div')
+// console.log(tn)
+// // tnn=document.getElementsByTagName('button')
 // console.log(tnn)
-createdElement=document.createElement('p')
-createdElement.innerText="this is a paragraph"
-tn[0].appendChild(createdElement)
+// createdElement=document.createElement('p')
+// createdElement.innerText="this is a paragraph"
+// tn[0].appendChild(createdElement)
 
-createdElement2=document.createElement('b')
-createdElement2.innerText="this is a bold"
-tn[0].replaceChild(createdElement2, createdElement)
-// removeChild(element);
+// createdElement2=document.createElement('b')
+// createdElement2.innerText="this is a bold"
+// tn[0].replaceChild(createdElement2, createdElement)
+// // removeChild(element);
 
 
 // selecting usinh query
-sel=document.querySelector('.container');
-console.log(sel)
-sel=document.querySelectorAll('.container');
-console.log(sel)
+// sel=document.querySelector('.container');
+// console.log(sel)
+// sel=document.querySelectorAll('.container');
+// console.log(sel)
 
 // events
+function clicked(){
+    console.log('the button was clicked')
+}
 
 
 
