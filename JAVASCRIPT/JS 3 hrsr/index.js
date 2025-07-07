@@ -239,6 +239,16 @@ tn[0].appendChild(createdElement)
 createdElement2=document.createElement('b')
 createdElement2.innerText="this is a bold"
 tn[0].replaceChild(createdElement2, createdElement)
+// removeChild(element);
+
+
+// selecting usinh query
+sel=document.querySelector('.container');
+console.log(sel)
+sel=document.querySelectorAll('.container');
+console.log(sel)
+
+// events
 
 
 
@@ -254,4 +264,4 @@ tn[0].replaceChild(createdElement2, createdElement)
 
 
 
-
+// Final tweak for 6 July
