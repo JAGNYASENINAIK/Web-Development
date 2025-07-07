@@ -253,18 +253,21 @@ function clicked(){
     console.log('the button was clicked')
 }
 
+window.onload=function(){
+    console.log('the document was loaded')
+}
+
+// firstContainer.addEventListener('click',function(){
+//     console.log("click hua")
+// })
+// firstContainer.addEventListener('mouseover',function(){
+//     console.log("mouse in container")
+// })
+// firstContainer.addEventListener('mouseup',function(){
+//     console.log("mouse up  when clicked on container")
+// })
+// firstContainer.addEventListener('mousedown',function(){
+//     console.log("mouse down  when clicked on container")
+// })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// Final tweak for 6 July
