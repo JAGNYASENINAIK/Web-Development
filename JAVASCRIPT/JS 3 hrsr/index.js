@@ -277,13 +277,13 @@ window.onload=function(){
 // })
 
 
-// arrow function
-// function summ(a,b){
-    //     return a+b;
-    // }
-    // summ=(a,b)=>{
-        //     return(a+b)
- // }
+arrow function
+function summ(a,b){
+        return a+b;
+    }
+    summ=(a,b)=>{
+            return(a+b)
+ }
         
  // set timeout and setinterval
  logkaro=()=>{
