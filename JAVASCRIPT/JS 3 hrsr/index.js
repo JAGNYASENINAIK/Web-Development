@@ -258,16 +258,39 @@ window.onload=function(){
 }
 
 // firstContainer.addEventListener('click',function(){
+//     document.querySelectorAll('.container')[1].innerHTML="<b> we have clicked </b>"
 //     console.log("click hua")
 // })
 // firstContainer.addEventListener('mouseover',function(){
 //     console.log("mouse in container")
 // })
+
+// let prevHTML=document.querySelectorAll('.container')[1].innerHTML;
 // firstContainer.addEventListener('mouseup',function(){
+//     document.querySelectorAll('.container')[1].innerHTML=prevHTML;
 //     console.log("mouse up  when clicked on container")
 // })
-// firstContainer.addEventListener('mousedown',function(){
+
+
+// firstContainer.addEventListener('mousedown',function(){     document.querySelectorAll('.container')[1].innerHTML="<b> we have clicked </b>"
 //     console.log("mouse down  when clicked on container")
 // })
+
+
+// arrow function
+// function summ(a,b){
+    //     return a+b;
+    // }
+    // summ=(a,b)=>{
+        //     return(a+b)
+ // }
+        
+ // set timeout and setinterval
+ logkaro=()=>{
+     document.querySelectorAll('.container')[1].innerHTML="<b> set interval fired </b>"
+    console.log("i am your log ")
+ }
+ setTimeout(logkaro,5000)
+        
 
 
