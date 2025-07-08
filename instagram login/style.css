@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #daa8a8;
+}
+.all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(131, 165, 196);
+    width: 400px;
+    height: 355px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.another{
+    background-color: #d98b8b;
+    height: 50px;
+    margin: 9px 0;
+    padding-top: 20px;
+    
+    
+}
+.center h1{
+    font-family: "Rochester", cursive;
+font-size: 50px; }
+
