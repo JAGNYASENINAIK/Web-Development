@@ -286,11 +286,11 @@ window.onload=function(){
 //  }
         
  // set timeout and setinterval
- logkaro=()=>{
-     document.querySelectorAll('.container')[1].innerHTML="<b> set interval fired </b>"
-    console.log("i am your log ")
- }
- setTimeout(logkaro,5000)
+//  logkaro=()=>{
+//      document.querySelectorAll('.container')[1].innerHTML="<b> set interval fired </b>"
+//     console.log("i am your log ")
+//  }
+//  setTimeout(logkaro,5000)
         
 
 
