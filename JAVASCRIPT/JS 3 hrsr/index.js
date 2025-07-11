@@ -2,6 +2,8 @@
 // console.write("heiuhgytdrfuj");
 // alert("meeeee")
 
+const { jsx } = require("react/jsx-runtime");
+
 //  2.javascript console
 // console.log("hello world" ,4+6, "another log");
 // console.warn("this is warning");
@@ -291,6 +293,12 @@ window.onload=function(){
     console.log("i am your log ")
  }
  setTimeout(logkaro,5000)
+//  use clearInterval/clearTimeout to cancel setinterval/settimeout
+ clr=setTimeout(logkaro,5000)
+
+//  localStorage in js
+
+// localStorage.setItem('name','reenu');
         
 
 
