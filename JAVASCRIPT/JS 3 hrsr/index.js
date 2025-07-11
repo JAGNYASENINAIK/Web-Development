@@ -2,7 +2,7 @@
 // console.write("heiuhgytdrfuj");
 // alert("meeeee")
 
-const { jsx } = require("react/jsx-runtime");
+// const { jsx } = require("react/jsx-runtime");
 
 //  2.javascript console
 // console.log("hello world" ,4+6, "another log");
@@ -250,14 +250,14 @@ elemc[0].classList.add("text-success")
 // sel=document.querySelectorAll('.container');
 // console.log(sel)
 
-// events
-function clicked(){
-    console.log('the button was clicked')
-}
+// // events
+// function clicked(){
+//     console.log('the button was clicked')
+// }
 
-window.onload=function(){
-    console.log('the document was loaded')
-}
+// window.onload=function(){
+//     console.log('the document was loaded')
+// }
 
 // firstContainer.addEventListener('click',function(){
 //     document.querySelectorAll('.container')[1].innerHTML="<b> we have clicked </b>"
@@ -287,18 +287,30 @@ window.onload=function(){
 //             return(a+b)
 //  }
         
- // set timeout and setinterval
- loaro=()=>{
-     document.querySelectorAll('.container')[1].innerHTML="<b> set interval fired </b>"
-    console.log("i am your log ")
- }
- setTimeout(logkaro,5000)
-//  use clearInterval/clearTimeout to cancel setinterval/settimeout
- clr=setTimeout(logkaro,5000)
+//  // set timeout and setinterval
+//  loaro=()=>{
+//      document.querySelectorAll('.container')[1].innerHTML="<b> set interval fired </b>"
+//     console.log("i am your log ")
+//  }
+//  setTimeout(logkaro,5000)
+// //  use clearInterval/clearTimeout to cancel setinterval/settimeout
+//  clr=setTimeout(logkaro,5000)
 
 //  localStorage in js
 
 // localStorage.setItem('name','reenu');
-        
+// localStorage.getItem('name');
+// localStorage.removeItem('name');
+// localStorage.clear();
 
+// JSON
+// obj={name:"reenu",length:1, a:{this:"that"}}
+// jso=JSON.stringify(obj);
+// console.log(typeof jso);
+// console.log(jso)
+// parsed=JSON.parse (`{"name":"reenu","length":1,"a":{"this":"that"}}`)                                                                 
+// console.log(parsed);
 
+// // template literals backticks
+// a=99;
+// console.log(`this is my ${a}`);
