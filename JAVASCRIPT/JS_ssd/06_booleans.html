@@ -10,17 +10,77 @@
 <body>
 
   <h1>Rock Paper Scissors</h1>
-  <button onclick="
-   const randomNum= Math.random();
-   if(randomNum>=0 && randomNum<=1/3)
-   {console.log('Rock')}
-   else if(randomNum>=1/3 && randomNum<=2/3)
-   {console.log('Paper')}
-   else(randomNum>=2/3 && randomNum<=1){console.log('Scissors')}">Rock</button>
-  <button onclick="">Paper</button>
-  <button onclick="">Scissors</button>
-  <script>
 
+
+  <button onclick="
+  
+   const randomNum= Math.random();
+   let comMov='';
+   if(randomNum>=0 && randomNum<1/3) //
+   {comMov='Rock'}
+   else if(randomNum>1/3 && randomNum<2/3)
+   {comMov='Paper'}
+   else if(randomNum>2/3 && randomNum<1)
+   {comMov='Scissors'}
+   
+   let result='';
+if(comMov === 'Rock' ){
+  result='tie'
+}else if(comMov=== 'Paper'){
+  result='you lose'
+ } else if(comMov ==='Scissors'){
+  result='you win'
+ }
+ alert(`You chose Rock.Computer chose ${comMov}.${result}.`)">Rock</button>
+   
+   
+  <button onclick="
+   const randomNum0= Math.random();
+   let comMov0='';
+   if(randomNum0>=0 && randomNum0<1/3) //
+   {comMov0='Rock'}
+   else if(randomNum0>1/3 && randomNum0<2/3)
+   {comMov0='Paper'}
+   else if(randomNum0>2/3 && randomNum0<1)
+   {comMov0='Scissors'}
+   
+if(comMov0 === 'Rock' ){
+  result0='you win'
+}else if(comMov0 === 'Paper'){
+  result0=' tie'
+ } else if(comMov0 ==='Scissors'){
+  result0='you lose'
+ }
+ alert(`You chose Paper.Computer chose ${comMov0}.${result0}.`)
+ 
+ ">Paper</button>
+
+
+
+  <button onclick="
+  
+   const randomNum1= Math.random();
+   let comMov1='';
+   if(randomNum1>=0 && randomNum1<1/3) //
+   {comMov1='Rock'}
+   else if(randomNum1>1/3 && randomNum1<2/3)
+   {comMov1='Paper'}
+   else if(randomNum1>2/3 && randomNum1<1)
+   {comMov1='Scissors'}
+   
+   let result1='';
+if(comMov1 === 'Rock' ){
+  result1='you lose'
+}else if(comMov1=== 'Paper'){
+  result1='you win'
+ } else if(comMov1 ==='Scissors'){
+  result1='tie'
+ }
+ 
+
+ alert(`You chose Scissors.Computer chose ${comMov1}.${result1}.`)
+  ">Scissors</button>
+  <script>
   </script>
 </body>
 
