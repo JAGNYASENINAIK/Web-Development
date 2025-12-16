@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>boolean</title>
+</head>
+
+<body>
+
+  <h1>Rock Paper Scissors</h1>
+
+
+  <button onclick="
+  pickComMove()
+   
+   let result='';
+if(comMov === 'Rock' ){
+  result='tie'
+}else if(comMov=== 'Paper'){
+  result='you lose'
+ } else if(comMov ==='Scissors'){
+  result='you win'
+ }
+ alert(`You chose Rock.Computer chose ${comMov}.${result}.`)">Rock</button>
+   
+   
+  <button onclick="
+   pickComMove();
+   
+if(comMov === 'Rock' ){
+  result='you win'
+}else if(comMov === 'Paper'){
+  result=' tie'
+ } else if(comMov ==='Scissors'){
+  result='you lose'
+ }
+ alert(`You chose Paper.Computer chose ${comMov}.${result}.`)
+ 
+ ">Paper</button>
+
+
+
+  <button onclick="
+   pickComMove();
+   
+   
+   let result='';
+if(comMov === 'Rock' ){
+  result='you lose'
+}else if(comMov=== 'Paper'){
+  result='you win'
+ } else if(comMov ==='Scissors'){
+  result='tie'
+ }
+ 
+
+ alert(`You chose Scissors.Computer chose ${comMov}.${result}.`)
+  ">Scissors</button>
+  <script>
+let comMov='';
+    function pickComMove(){
+      const randomNum= Math.random();
+   
+   if(randomNum>=0 && randomNum<1/3) //
+   {comMov='Rock'}
+   else if(randomNum>1/3 && randomNum<2/3)
+   {comMov='Paper'}
+   else if(randomNum>2/3 && randomNum<1)
+   {comMov='Scissors'}
+    }
+  </script>
+</body>
+
+</html>
