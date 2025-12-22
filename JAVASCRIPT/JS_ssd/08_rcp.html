@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,17 +31,21 @@
   playGame('Scissors');
   ">Scissors</button>
 
-<button onclick="
+  <button onclick="
 score.Wins=0;
 score.Losses=0;
-score.Ties=0;">Reset Game</button>
+score.Ties=0;
+localStorage.removeItem('score')
+">Reset Game</button>
+
 
   <script>
-   const score={
-    Wins:0,
-    Losses:0,
-    Ties:0
-   }
+const score=JSON.parse(localStorage.getItem('score')) || {
+   Wins:0,
+   Losses:0,
+  Ties:0
+ }
+
 
 
 
@@ -56,7 +64,7 @@ if(comMov === 'Rock' ){
   if(comMov === 'Rock' ){
   result='you win'
 }else if(comMov === 'Paper'){
-  result='tie'
+  result=' tie'
  } else if(comMov ==='Scissors'){
   result='you lose'
  }
@@ -78,11 +86,11 @@ if(comMov === 'Rock' ){
   score.Ties++;
  }
 
+ localStorage.setItem('score',JSON.stringify(score))
 
  alert(`You chose ${playerMove}.Computer chose ${comMov}.${result}.
   Wins : ${score.Wins}.Losses : ${score.Losses}.Ties : ${score.Ties}`)
  
-
       
     }
   function pickComMove(){
@@ -97,8 +105,6 @@ if(comMov === 'Rock' ){
 
    return comMov;
     }
-
-     
   </script>
 </body>
 
