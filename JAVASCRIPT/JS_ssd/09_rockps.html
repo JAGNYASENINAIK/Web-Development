@@ -31,11 +31,16 @@
   playGame('Scissors');
   ">Scissors</button>
 
+<p class="js-result"></p>
+<p class="js-moves"></p>
+<p class="js-score"></p>
+
   <button onclick="
 score.Wins=0;
 score.Losses=0;
 score.Ties=0;
 localStorage.removeItem('score')
+scoreElement()
 ">Reset Game</button>
 
 
@@ -47,52 +52,68 @@ const score=JSON.parse(localStorage.getItem('score')) || {
  }
 
 
-
-
+ scoreElement()
 
     function playGame(playerMove) {
        const comMov=pickComMove();
       let result='';
       if(playerMove==='Scissors'){
 if(comMov === 'Rock' ){
-  result='you lose'
+  result='You Lose'
 }else if(comMov=== 'Paper'){
-  result='you win'
+  result='You Win'
  } else if(comMov ==='Scissors'){
-  result='tie'
+  result='Tie'
  } }else if(playerMove==='Paper'){
   if(comMov === 'Rock' ){
-  result='you win'
+  result='You Win'
 }else if(comMov === 'Paper'){
-  result=' tie'
+  result=' Tie'
  } else if(comMov ==='Scissors'){
-  result='you lose'
+  result='You lose'
  }
  }else if(playerMove==='Rock'){
   if(comMov === 'Rock' ){
-  result='tie'
+  result='Tie'
 }else if(comMov=== 'Paper'){
-  result='you lose'
+  result='You Lose'
  } else if(comMov ==='Scissors'){
-  result='you win'
+  result='You Win'
  }
  }
 
- if(result === "you win"){
+ 
+
+ if(result === "You Win"){
   score.Wins++;
- }else if(result === 'you lose'){
+ }else if(result === 'You Lose'){
   score.Losses++;
- }else if(result === "tie"){
+ }else if(result === "Tie"){
   score.Ties++;
  }
 
+
  localStorage.setItem('score',JSON.stringify(score))
 
- alert(`You chose ${playerMove}.Computer chose ${comMov}.${result}.
-  Wins : ${score.Wins}.Losses : ${score.Losses}.Ties : ${score.Ties}`)
+ scoreElement()
+
+
+ document.querySelector('.js-result').innerHTML=result
+ document.querySelector('.js-moves').innerHTML=`You chose ${playerMove}-Computer chose ${comMov}.`
+
+//  alert(`You chose ${playerMove}.Computer chose ${comMov}.${result}.
+//  Wins : ${score.Wins}.Losses : ${score.Losses}.Ties : ${score.Ties}
+//   `)
  
       
     }
+
+function scoreElement() {
+  document.querySelector('.js-score')
+ .innerHTML=`Wins : ${score.Wins}.Losses : ${score.Losses}.Ties : ${score.Ties}`
+}
+
+
   function pickComMove(){
       const randomNum= Math.random();
    let comMov='';
