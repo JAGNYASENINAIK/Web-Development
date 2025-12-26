@@ -18,22 +18,21 @@
   <p>Orders over $40 = FREE shipping.</p>
   <input type="number" placeholder="Cost of order" class="js-cost"> 
   <button 
-  onclick="const orderPrice= 
-   
-   if(orderPrice >=40){
-  orderPrice+=10;
-   }else{
-    orderPrice;
-    }
-   
-  
-  ">Calculate</button>
+  onclick=" calTotal()">Calculate</button>
+  <p class="js-tcost"></p>
 
   <script>
 
 
 function calTotal(){
+const inputElement=document.querySelector('.js-cost')
+let cost= Number(inputElement.value);
 
+if(cost <=40){
+  cost+=10
+}
+
+document.querySelector('.js-tcost').innerHTML=`total cost is ${cost}`
 }
 
 
