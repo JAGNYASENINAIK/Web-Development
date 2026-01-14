@@ -12,8 +12,18 @@
         .innerHTML = 'You chose: Tails';">Tails</button>
   <p class="result"></p>
 
-  <script>
- 
+  <input type="text" class="wrt" placeholder="write your name " onkeydown="if(event.key==='Enter'){
+    display()}">
+  <button onclick="display()
+  "  >Submit</button>
+  <p class="dis"></p>
+    <script>
+   function display(){
+    
+ const inputElement=document.querySelector('.wrt')
+  document.querySelector('.dis')
+        .innerHTML =`Your Name is ${inputElement.value} `
+   }
 
   </script>
 </body>
